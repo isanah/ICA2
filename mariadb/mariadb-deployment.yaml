@@ -11,6 +11,7 @@ spec:
   template:
     metadata:
       labels:
+        env: dev
         app: mariadb
     spec:
       containers:
